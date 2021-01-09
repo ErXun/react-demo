@@ -1,0 +1,61 @@
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  position: relative;
+  list-style: none;
+  border: 1px solid #ccc;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+  margin: 15px 0;
+}
+li:hover{
+  background: #ccc;
+}
+
+.content {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 600px;
+  height: 400px;
+  padding: 10px;
+}
+
+.content h2 {
+  text-align: center;
+}
+
+.input {
+  width: 593px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+}
+
+.list {
+  margin-top: 20px;
+  height: 260px;
+  overflow: auto;
+}
+
+.title {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.btn {
+  position: absolute;
+  top: 11%;
+  right: 1%;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  background-color: #e9686b;
+  color: #fff;
+  padding: 8px;
+  border-radius: 10px;
+}

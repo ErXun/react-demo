@@ -1,0 +1,27 @@
+.item {
+  position: relative;
+  list-style: none;
+  border: 1px solid #ccc;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+  margin: 15px 0;
+}
+
+.title {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.btn {
+  position: absolute;
+  top: 11%;
+  right: 1%;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  background-color: #e9686b;
+  color: #fff;
+  padding: 8px;
+  border-radius: 10px;
+}

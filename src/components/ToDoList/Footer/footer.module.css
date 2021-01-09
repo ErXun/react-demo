@@ -1,0 +1,17 @@
+.content {
+  padding: 10px 0;
+  position: relative;
+}
+
+.btn {
+  position: absolute;
+  top: 15%;
+  right: 0.5%;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  background-color: #e9686b;
+  color: #fff;
+  padding: 7px 8px;
+  border-radius: 10px;
+}
