@@ -1,0 +1,23 @@
+.list_container {
+  padding: 30px 0;
+}
+
+.list_container ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.list_container li {
+  list-style: none;
+  width: 270px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.list_container li img {
+  width: 150px;
+  height: 150px;
+}

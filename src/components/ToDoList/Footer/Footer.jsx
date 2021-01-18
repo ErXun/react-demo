@@ -32,7 +32,7 @@ export default class Footer extends Component {
           checked={totalCount === checkCount && totalCount !== 0 ? true : false}
           onChange={this.handleCheckAll} />
         <span>已完成 {checkCount} / 全部 {totalCount}</span>
-        <button className={footer.btn} onClick={this.handleClearAll}>清楚已完成任务</button>
+        <button className={footer.btn} onClick={this.handleClearAll}>清除已完成任务</button>
       </div >
     )
   }

@@ -46,6 +46,7 @@ export default class ToDoList extends Component {
 
   deleteItem = (id) => {
     const { tasks } = this.state
+    // 根据 id 进行匹配，返回不包含 id 的对象
     const newTasks = tasks.filter(obj => {
       return obj.id !== id
     })

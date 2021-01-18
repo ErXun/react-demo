@@ -13,7 +13,7 @@ export default class Header extends Component {
   handleAdd = (event) => {
     const { target, keyCode } = event
     if (keyCode !== 13) return
-    if (target.value.trim() === '') {
+    if (target.value.trim() === '') { // 去除空字符
       alert("不可为空！")
       return
     }

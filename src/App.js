@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 // import ToDoList from './components/ToDoList/ToDoList';
-import Axios from './components/Axios/Axios';
+import SearchGitUsers from './components/SearchGitUsers';
 
 
 
@@ -10,7 +10,8 @@ export default class App extends React.Component {
     return (
       <div className="App">
         {/* <ToDoList /> */}
-        <Axios />
+        {/* <Axios /> */}
+        <SearchGitUsers />
       </div>
     )
   }
