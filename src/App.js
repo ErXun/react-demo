@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 // import ToDoList from './components/ToDoList/ToDoList';
-import SearchGitUsers from './components/SearchGitUsers';
+// import SearchGitUsers from './components/SearchGitUsers';
+import StudyRouter from './components/StudyRouter';
 
 
 
@@ -11,7 +12,8 @@ export default class App extends React.Component {
       <div className="App">
         {/* <ToDoList /> */}
         {/* <Axios /> */}
-        <SearchGitUsers />
+        {/* <SearchGitUsers /> */}
+        <StudyRouter />
       </div>
     )
   }

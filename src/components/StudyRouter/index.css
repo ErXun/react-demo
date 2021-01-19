@@ -1,0 +1,27 @@
+
+
+.container {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+
+.side_bar {
+  width: 100px;
+}
+
+.side_bar a {
+  text-decoration: none;
+}
+
+.link {
+  display: block;
+  padding: 10px 20px;
+  border: 1px solid skyblue;
+}
+
+.content {
+  width: 350px;
+  border: 1px solid #ccc;
+ 
+}
