@@ -77,9 +77,6 @@ export default class ToDoList extends Component {
     })
   }
 
-
-
-
   render() {
     const { tasks } = this.state
     return (
