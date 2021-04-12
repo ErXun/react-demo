@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
+import qs from 'querystring'
 
 export default class Detail extends Component {
   render() {
-    const { id, title } = this.props.match.params
-    console.log(`this.props`, this.props)
+    // console.log(`this.props`, this.props)
+    // const { id, title } = this.props.match.params
+    // const { id, title } = qs.parse(this.props.location.search.slice(1))
+    const { id, title } = this.props.location.state
     return (
       <div>
         <div>
@@ -12,6 +15,7 @@ export default class Detail extends Component {
         <div>
           title:{title}
         </div>
+        
       </div>
     )
   }

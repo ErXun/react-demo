@@ -4,12 +4,14 @@ import './index.css'
 import About from './About'
 import Home from './Home'
 import MyNavLink from './components/MyNavLink'
+import MyHeader from './MyHeader'
 
-export default class index extends Component {
+
+export default class StudyRouter extends Component {
   render() {
     return (
       <div>
-        <h1 style={{ textAlign: 'center' }}>Study Router</h1>
+        <MyHeader />
         <div className="container">
           <div className="side_bar">
             {/* 编写路由链接 */}

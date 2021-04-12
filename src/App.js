@@ -2,7 +2,10 @@ import React from 'react';
 import './App.css';
 // import ToDoList from './components/ToDoList/ToDoList';
 // import SearchGitUsers from './components/SearchGitUsers';
-import StudyRouter from './components/StudyRouter';
+// import StudyRouter from './components/StudyRouter';
+// import Demo from './components/Hooks/useState';
+// import Demo from './components/Hooks/useEffect';
+import Demo from './components/Hooks/useRef';
 
 
 
@@ -13,7 +16,8 @@ export default class App extends React.Component {
         {/* <ToDoList /> */}
         {/* <Axios /> */}
         {/* <SearchGitUsers /> */}
-        <StudyRouter />
+        {/* <StudyRouter /> */}
+        <Demo />
       </div>
     )
   }
