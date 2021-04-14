@@ -5,7 +5,8 @@ import './App.css';
 // import StudyRouter from './components/StudyRouter';
 // import Demo from './components/Hooks/useState';
 // import Demo from './components/Hooks/useEffect';
-import Demo from './components/react 扩展/PureComponent';
+// import Demo from './components/react 扩展/PureComponent';
+import Demo from './components/react 扩展/renderProps';
 
 
 
