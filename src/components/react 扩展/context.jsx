@@ -34,33 +34,33 @@ class B extends Component {
     )
   }
 }
-// class C extends Component {
-//   //  声明接收 context,仅适用于类式组件
-//   static contextType = MyContext
+class C extends Component {
+  //   //  声明接收 context,仅适用于类式组件
+  static contextType = MyContext
 
-//   render() {
-//     console.log(`c`, this)
-//     const { name, age } = this.context
-//     return (
-//       <div>
-//         <h3>我是 C 组件</h3>
-//         姓名：<span>{name}</span>
-//         年龄：<span>{age}</span>
-//       </div>
-//     )
-//   }
-// }
-
-function C() {
-  return (
-    <div>
-      <h3>我是 C 组件</h3>
-        姓名：
-      <Consumer>
-        {
-          value => `${value.name},年龄：${value.age}`
-        }
-      </Consumer>
-    </div>
-  )
+  render() {
+    console.log(`c`, this)
+    const { name, age } = this.context
+    return (
+      <div>
+        <h3>我是 C 组件</h3>
+        姓名：<span>{name}</span>
+        年龄：<span>{age}</span>
+      </div>
+    )
+  }
 }
+
+// function C() {
+//   return (
+//     <div>
+//       <h3>我是 C 组件</h3>
+//         姓名：
+//       <Consumer>
+//         {
+//           value => `${value.name},年龄：${value.age}`
+//         }
+//       </Consumer>
+//     </div>
+//   )
+// }
